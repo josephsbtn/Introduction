@@ -1,0 +1,57 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  text-decoration-line: none;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  position: fixed;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  padding: 2rem 5%;
+  align-items: center;
+  height: 8vh;
+  margin-top: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar .logo {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 1rem;
+}
+
+.navbar .navbar-nav a {
+  color: aliceblue;
+  margin: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.navbar .navbarlogo a {
+  color: aliceblue;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  background-image: url("../company/images/background.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
